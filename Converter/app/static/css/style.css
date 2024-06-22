@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('../img/map.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* 100% высоты видимого экрана */
+}
+
+.card {
+    max-width: 1000px; /* Ширина вашей формы */
+    min-width: 700px;
+    width: 100%;
+}
+
+.form-wrap {
+    background-color: rgba(255, 255, 255, 1); /*Белый фон формы */
+}
+
+.card-header {
+    background-color: #007bff; /* Цвет заголовка формы */
+    color: #fff; /* Цвет текста заголовка формы */
+}
+
+.form-control {
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    text-align: center;
+}
